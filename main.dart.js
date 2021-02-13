@@ -57561,7 +57561,7 @@ o=J.er(f,0,2)
 j=C.b.F(f,2,4)
 b=P.cy(o,a2)
 if(b>12){b-=12
-a="PM"}else a="AM"
+a="PM"}else a=b===12?"PM":"AM"
 a0=C.b.N(""+b+":"+j+" "+a+" "+c+" ",r.h(0,e))
 if(g===s){if(!C.c.B(a3.e,a0))a3.e.push(a0)
 continue}if(!C.c.B(a3.d,a0))a3.d.push(a0)}a1="No orders for today"}else a1="No email associated with this ID. Try again. If this reoccurs, contact mammotheats@amherst.edu"}}a4=t.fQ
